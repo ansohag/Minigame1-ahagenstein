@@ -26,3 +26,11 @@ Der Spieler steuert mit den Pfeiltasten auf der Tastatur eine Biene die Blumen
 <div>
 <img src="./Screenshots/MainScreen.png" width="250">
 </div>
+
+*End Screen
+<div>
+<img src="./Screenshots/EndScreen.png" width="250">
+</div>
+      
+
+> Copyright by Anna Hagenstein
