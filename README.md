@@ -7,6 +7,8 @@
 * Visual Studio Version 7.7.2.21      
 
 #### Description:
+2D Minigame          
+          
 Der Spieler steuert mit den Pfeiltasten auf der Tastatur eine Biene die Blumen
  bestäuben muss. Für jede eingesammelte Blume gibt es 10 Punkte,
  jedoch gibt es auch schlechte Items, wie zum Beispiel ein Insektenschutzmittel
