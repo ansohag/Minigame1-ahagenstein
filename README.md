@@ -17,9 +17,12 @@ Der Spieler steuert mit den Pfeiltasten auf der Tastatur eine Biene die Blumen
  am Ende kann der Spieler dann seinen Punktestand begutachten.
         
 #### Mockups:
-* Start Screen  
-	  
+* Start Screen  	  
 <div>
 <img src="./Screenshots/StartScreen.png" width="250">
 </div>
 
+* Main Screen 
+<div>
+<img src="./Screenshots/MainScreen.png" width="250">
+</div>
