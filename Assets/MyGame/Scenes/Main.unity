@@ -378,7 +378,7 @@ Prefab:
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 2067311721}
+      objectReference: {fileID: 2067311722}
     - target: {fileID: 114150598021449054, guid: 99818c7eb509743d7a82317eef0cd95d,
         type: 2}
       propertyPath: m_Colors.m_HighlightedColor.r
@@ -394,6 +394,26 @@ Prefab:
       propertyPath: m_Colors.m_HighlightedColor.b
       value: 0.35056958
       objectReference: {fileID: 0}
+    - target: {fileID: 114150598021449054, guid: 99818c7eb509743d7a82317eef0cd95d,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114150598021449054, guid: 99818c7eb509743d7a82317eef0cd95d,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114150598021449054, guid: 99818c7eb509743d7a82317eef0cd95d,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadSceneEnd
+      objectReference: {fileID: 0}
+    - target: {fileID: 114150598021449054, guid: 99818c7eb509743d7a82317eef0cd95d,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99818c7eb509743d7a82317eef0cd95d, type: 2}
   m_IsPrefabAsset: 0
@@ -406,6 +426,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2067311723}
   - component: {fileID: 2067311722}
+  - component: {fileID: 2067311724}
   m_Layer: 0
   m_Name: SceneLoader
   m_TagString: Untagged
@@ -437,3 +458,14 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2067311724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2067311721}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe09a8ba0e93e4edfb9539d366cd8778, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
