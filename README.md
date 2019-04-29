@@ -16,4 +16,10 @@ Der Spieler steuert mit den Pfeiltasten auf der Tastatur eine Biene die Blumen
  Man hat 60 Sekunden Zeit um so viele Blumen wie möglich zu bestäuben,
  am Ende kann der Spieler dann seinen Punktestand begutachten.
         
-#### Mockups  
+#### Mockups:
+* Start Screen  
+	  
+<div>
+<img src="./Screenshots/StartScreen.png" width="250">
+</div>
+
