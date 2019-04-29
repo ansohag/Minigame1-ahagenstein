@@ -27,7 +27,7 @@ Der Spieler steuert mit den Pfeiltasten auf der Tastatur eine Biene die Blumen
 <img src="./Screenshots/MainScreen.png" width="250">
 </div>
 
-*End Screen
+* End Screen
 <div>
 <img src="./Screenshots/EndScreen.png" width="250">
 </div>
