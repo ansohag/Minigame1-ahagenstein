@@ -8,13 +8,27 @@
 
 #### Description:
 2D Minigame          
-          
-Der Spieler steuert mit den Pfeiltasten auf der Tastatur eine Biene die Blumen
- bestäuben muss. Für jede eingesammelte Blume gibt es 10 Punkte,
- jedoch gibt es auch schlechte Items, wie zum Beispiel ein Insektenschutzmittel
- oder eine Abgaswolke, welche jeweils 20 Minuspunkte geben.
+Name: Save the Bees                   
+
+Die Start Scene zeigt den Namen des Spieles und ein paar Illustrationen,
+ inmitten davon befindet sich der "Start"-Button. Wenn man diesen klickt kommt man
+ von der Start Scene zur Main Scene.        
+Der Spieler steuert mit den Pfeiltasten auf der Tastatur nach links und rechts
+ eine Biene die Blumen bestäuben muss und Pollen usw aufsammeln soll, um Honig
+ zu produzieren. Die Collectibles fallen von oben nach unten,
+ somit hat der Spieler Zeit um zur richtigen Position zu fahren.
+ Für jede eingesammelte Blume gibt es 10 Punkte, jedoch gibt es auch schlechte
+ Items, wie zum Beispiel ein Insektenschutzmittel oder eine Abgaswolke,
+ welche jeweils 20 Minuspunkte geben. Es gibt deswegen mehr Minus-
+ als Pluspunkte, um den Spieler zu zeigen, dass Bienen aussterben und
+ die negativen, nicht natürlichen Dinge, den positiven überwiegen.
  Man hat 60 Sekunden Zeit um so viele Blumen wie möglich zu bestäuben,
- am Ende kann der Spieler dann seinen Punktestand begutachten.
+ da nach 60 sek die Biene wieder zurück zum Bienenstock muss, um das gesammelte abzuliefern.            
+Entweder wird das Spiel durch das Ende der 60 Sekunden beendet, oder wenn der Score
+ 80 Minuspunkte sind, da dann die Biene zu geschwächt ist um weiter zu machen.
+ Wenn die Zeit abgelaufen ist oder man zu geschwächt ist wechselt man zur End Scene,
+ welche den gesammelten Punktestand anzeigt.
+ Danach kann man das Spiel restarten, wenn man möchte.
         
 #### Mockups:
 * Start Screen  	  
