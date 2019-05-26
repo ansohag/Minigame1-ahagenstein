@@ -19,12 +19,6 @@ public class CollectibleBad : MonoBehaviour
             pointsScore.text = score.ToString();
 
         }
-        else if (collision.gameObject.name == "GedachteLinie")
-        {
-            score -= 0;
-            Debug.Log("score " + score);
-            pointsScore.text = score.ToString();
-        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
