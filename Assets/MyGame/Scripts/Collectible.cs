@@ -21,7 +21,7 @@ public class Collectible : MonoBehaviour
         }
         else if (collision.gameObject.name == "GedachteLinie")
         {
-            score -= 20;
+            score -= 0;
             Debug.Log("score " + score);
             pointsScore.text = score.ToString();
         }
