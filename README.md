@@ -40,22 +40,22 @@ Entweder wird das Spiel durch das Ablaufen der 60 Sekunden beendet, oder wenn de
 #### Mockups:
 * Start Screen  	  
 <div>
-<img src="./Screenshots/StartScreen.png" width="250">
+<img src="./Screenshots/startScreen.png" width="250">
 </div>
      
 * Info Screen
 <div>
-<img src="./Screenshots/InfoScreen.png" width="250">
+<img src="./Screenshots/infoScreen.png" width="250">
 </div>
 
 * Main Screen 
 <div>
-<img src="./Screenshots/MainScreen.png" width="250">
+<img src="./Screenshots/mainScreen.png" width="250">
 </div>
 
 * End Screen
 <div>
-<img src="./Screenshots/EndScreen.png" width="250">
+<img src="./Screenshots/endScreen.png" width="250">
 </div>
       
 
