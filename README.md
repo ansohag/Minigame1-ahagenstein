@@ -1,14 +1,14 @@
-# Minigame1-ahagenstein
-**Progress:** 5%         
+# Save the Bees
+**Progress:** 20%         
 
 #### Development Platform:       
 * OS: MacOS 10.14.3       
 * Unity Version 2018.2.14f1         
-* Visual Studio Version 7.7.2.21      
+* Visual Studio Version 7.7.2.21
+* Target Platform: WebGL      
 
 #### Description:
-2D Minigame          
-Name: Save the Bees                   
+2D Minigame                             
 
 Das Spiel soll Kindern von 5+ Jahren spielerisch beibringen, wie bedroht Bienen sind,
  und wie leicht man diese schädigen kann. Gleichzeitig zeigt es aber, dass man durch viel Ergeiz
