@@ -16,7 +16,7 @@ public class SpawnFlower1 : MonoBehaviour
     {
         while (true)
         {
-            yield return new WaitForSeconds(3);
+            yield return new WaitForSeconds(10);
             SpawnFlowr1();
         }
 

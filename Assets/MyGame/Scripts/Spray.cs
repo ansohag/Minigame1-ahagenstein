@@ -11,6 +11,11 @@ public class Spray : MonoBehaviour
         {
             Destroy(gameObject);
         }
+
+        if (collision.gameObject.name == "bee")
+        {
+            Destroy(gameObject);
+        }
     }
 }
 

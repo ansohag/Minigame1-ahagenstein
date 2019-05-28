@@ -11,5 +11,10 @@ public class Flower1 : MonoBehaviour
         {
             Destroy(gameObject);
         }
+
+        if (collision.gameObject.name == "bee")
+        {
+            Destroy(gameObject);
+        }
     }
 }
