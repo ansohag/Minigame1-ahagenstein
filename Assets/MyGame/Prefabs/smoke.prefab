@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 61733918609061012}
   - component: {fileID: 50223543457396392}
   - component: {fileID: 114208325950658824}
+  - component: {fileID: 114293894702546222}
   m_Layer: 0
   m_Name: smoke
   m_TagString: Untagged
@@ -101,6 +102,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pointsScore: {fileID: 114823000094688034, guid: 751ab57f6a0b04c1faf52e59eb99b403,
     type: 2}
+  score: {fileID: 11400000, guid: 8bcaf26c9a87d4e68851bec7bc8c27a6, type: 2}
+--- !u!114 &114293894702546222
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1153528562129392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2cbcda2dd6fb43878174af9912a8d6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &212773908056999484
 SpriteRenderer:
   m_ObjectHideFlags: 1

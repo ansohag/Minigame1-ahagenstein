@@ -113,6 +113,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pointsScore: {fileID: 114823000094688034, guid: 751ab57f6a0b04c1faf52e59eb99b403,
     type: 2}
+  score: {fileID: 11400000, guid: 8bcaf26c9a87d4e68851bec7bc8c27a6, type: 2}
 --- !u!212 &212667357196073696
 SpriteRenderer:
   m_ObjectHideFlags: 1

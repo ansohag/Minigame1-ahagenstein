@@ -5,8 +5,9 @@ using TMPro;
 
 public class CollectibleBad : MonoBehaviour
 {
-    private int score = 0;
+    //private int score = 0;
     public TextMeshProUGUI pointsScore;
+    public MyScore score;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -14,9 +15,10 @@ public class CollectibleBad : MonoBehaviour
 
         if (collision.gameObject.name == "bee")
         {
-            score -= 20;
-            Debug.Log("score " + score);
-            pointsScore.text = score.ToString();
+            score.score -= 20;
+            Debug.Log("score bee bad" + score);
+            //PointsScore.text = score.ToString();
+            pointsScore.text = score.score.ToString();
 
         }
     }

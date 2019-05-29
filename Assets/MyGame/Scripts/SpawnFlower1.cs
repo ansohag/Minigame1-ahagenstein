@@ -16,7 +16,7 @@ public class SpawnFlower1 : MonoBehaviour
     {
         while (true)
         {
-            yield return new WaitForSeconds(10);
+            yield return new WaitForSeconds(3);
             SpawnFlowr1();
         }
 
@@ -29,7 +29,7 @@ public class SpawnFlower1 : MonoBehaviour
         flower1Clone.transform.localScale = new Vector3(flower1Size, flower1Size, 0);
         flower1Clone.transform.SetParent(flowerParent.transform);
         flower1Clone.transform.localPosition = new Vector3(UnityEngine.Random.Range(-5f, 5f), flowerParent.transform.position.y, 0f);
-        flower1Clone.GetComponent<Rigidbody2D>().velocity = new Vector2(UnityEngine.Random.Range(-2, 2), UnityEngine.Random.Range(-10, -1));
+        flower1Clone.GetComponent<Rigidbody2D>().velocity = new Vector2(UnityEngine.Random.Range(0, 0), UnityEngine.Random.Range(-5, -1));
 
     }
 
