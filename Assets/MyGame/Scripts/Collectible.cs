@@ -9,6 +9,12 @@ public class Collectible : MonoBehaviour
     public TextMeshProUGUI text;
     public MyScore score;
 
+    private void Update()
+    {
+        Debug.Log("Update collectible " + score.score.ToString());
+        text.text = score.score.ToString();
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         Debug.Log("Triggerevent " + collision.gameObject.name);
@@ -18,7 +24,7 @@ public class Collectible : MonoBehaviour
             score.score += 10;
             Debug.Log("score bee " + score);
             //PointsScore.text = score.ToString();
-            text.text = score.score.ToString();
+
 
         }
     }
@@ -28,4 +34,7 @@ public class Collectible : MonoBehaviour
         Debug.Log("CollisionEvent");
 
     }
+
+
+
 }
