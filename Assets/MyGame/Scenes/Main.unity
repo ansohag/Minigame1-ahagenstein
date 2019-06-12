@@ -288,7 +288,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4423457968187150, guid: dc796fecb331e42d8bd9d9223d1d1a8c, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 467
       objectReference: {fileID: 0}
     - target: {fileID: 4423457968187150, guid: dc796fecb331e42d8bd9d9223d1d1a8c, type: 2}
       propertyPath: m_LocalPosition.z
@@ -335,7 +335,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4908303768566228, guid: a7674fedb2258419dad5985210f55f0c, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 502
       objectReference: {fileID: 0}
     - target: {fileID: 4908303768566228, guid: a7674fedb2258419dad5985210f55f0c, type: 2}
       propertyPath: m_LocalPosition.z
@@ -457,7 +457,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4874242738000128, guid: 34b99c6ef4b0a4fbe84e5de1cb12ed30, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 457
       objectReference: {fileID: 0}
     - target: {fileID: 4874242738000128, guid: 34b99c6ef4b0a4fbe84e5de1cb12ed30, type: 2}
       propertyPath: m_LocalPosition.z
@@ -590,8 +590,9 @@ GameObject:
   - component: {fileID: 550757940}
   - component: {fileID: 550757942}
   - component: {fileID: 550757941}
+  - component: {fileID: 550757943}
   m_Layer: 5
-  m_Name: Countdown
+  m_Name: Timer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -735,6 +736,20 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 550757939}
   m_CullTransparentMesh: 0
+--- !u!114 &550757943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 550757939}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fda233b605c14497b972e2abdf30a57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeText: {fileID: 550757941}
+  maxTime: 60
+  deathScene: End
 --- !u!1001 &689861070
 Prefab:
   m_ObjectHideFlags: 0
@@ -748,7 +763,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4075398161513344, guid: a459ad79c04794d85a86211072ed9b7b, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 453
       objectReference: {fileID: 0}
     - target: {fileID: 4075398161513344, guid: a459ad79c04794d85a86211072ed9b7b, type: 2}
       propertyPath: m_LocalPosition.z
@@ -852,7 +867,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4353994890621818, guid: ff29a27d973d84c168b435f0af695901, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 455
       objectReference: {fileID: 0}
     - target: {fileID: 4353994890621818, guid: ff29a27d973d84c168b435f0af695901, type: 2}
       propertyPath: m_LocalPosition.z
@@ -1606,6 +1621,15 @@ Prefab:
         type: 2}
       propertyPath: m_RootOrder
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224807623596163186, guid: 99818c7eb509743d7a82317eef0cd95d,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 455
+      objectReference: {fileID: 0}
+    - target: {fileID: 1418702707073252, guid: 99818c7eb509743d7a82317eef0cd95d, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99818c7eb509743d7a82317eef0cd95d, type: 2}
