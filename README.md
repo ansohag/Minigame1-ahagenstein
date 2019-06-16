@@ -1,11 +1,18 @@
 # Save the Bees
-**Progress:** 20%         
+**Progress:** 80%         
 
 #### Development Platform:       
 * OS: MacOS 10.14.3       
 * Unity Version 2018.2.14f1         
 * Visual Studio Version 7.7.2.21
-* Target Platform: WebGL      
+* Scripting Runtime Version: .NET 3.5 Equivalent
+* API Compatibility Level: .NET 2.0 Subset
+     
+#### Target Platfor:     
+ WebGL 1024x768
+
+#### Game Trailer:      
+     
 
 #### Description:
 2D Minigame                             
@@ -53,10 +60,25 @@ Entweder wird das Spiel durch das Ablaufen der 60 Sekunden beendet, oder wenn de
 <img src="./Screenshots/MainScreen.png" width="250">
 </div>
 
+
 * End Screen
 <div>
 <img src="./Screenshots/EndScreen.png" width="250">
 </div>
-      
+        
+#### Lessons learned
+* Concepting a game
+* Basic programming in Unity
+* Working with Scriptable Objects, Colliders and Rigidbodies in Unity
+* Code Refactoring in C#
+* Loading new Scenes with the SceneLoader Script
+* How to make a Countdown
+     
+#### Third Party Material
+* Belmonte Font by Nasir Udin
+* Hand Drawn Grass Background by Freepik
+* Background Scene with Green Lawn by Freepik
+* Baby Logo by Freepik
+* Hand Holding Mosquito Spray by Freepik       
 
 > Copyright by Anna Hagenstein
