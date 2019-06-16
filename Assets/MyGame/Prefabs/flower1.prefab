@@ -100,7 +100,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ddc5df2e22d3e41c7a3c292dea595e7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: {fileID: 114823000094688034, guid: 751ab57f6a0b04c1faf52e59eb99b403, type: 2}
+  pointsScore: {fileID: 114823000094688034, guid: 751ab57f6a0b04c1faf52e59eb99b403,
+    type: 2}
   score: {fileID: 11400000, guid: 8bcaf26c9a87d4e68851bec7bc8c27a6, type: 2}
 --- !u!114 &114627699083048792
 MonoBehaviour:

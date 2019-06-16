@@ -11,11 +11,14 @@ public class Timer : MonoBehaviour
     public TextMeshProUGUI timeText;
     public float maxTime = 60f;
     public string deathScene = "End";
+    private ScoreManager scoreManager;
+    private string scoreManagerName = "ScoreManager";
 
     // Use this for initialization
     void Start()
     {
         time = maxTime;
+        scoreManager = GameObject.Find(scoreManagerName).GetComponent<ScoreManager>();
     }
 
     // Update is called once per frame
@@ -29,6 +32,7 @@ public class Timer : MonoBehaviour
         }
         else if (time <= 0)
         {
+            scoreManager.SaveScore();
             SceneManager.LoadScene(deathScene);
         }
 
