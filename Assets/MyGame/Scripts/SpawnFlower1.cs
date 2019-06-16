@@ -6,7 +6,6 @@ public class SpawnFlower1 : MonoBehaviour
 {
     public Flower1 flower1Prefab;
     public GameObject flowerParent;
-    public Sprite[] FlowerSprite;
 
     private void Update()
     {
@@ -31,8 +30,6 @@ public class SpawnFlower1 : MonoBehaviour
         flower1Clone.transform.SetParent(flowerParent.transform);
         flower1Clone.transform.localPosition = new Vector3(UnityEngine.Random.Range(-5f, 5f), flowerParent.transform.position.y, 0f);
         flower1Clone.GetComponent<Rigidbody2D>().velocity = new Vector2(UnityEngine.Random.Range(0, 0), UnityEngine.Random.Range(-5, -1));
-        int flowerSpriteIndex = Random.Range(0, 3);
-        flower1Clone.GetComponent<SpriteRenderer>().sprite = FlowerSprite[flowerSpriteIndex];
 
     }
 
