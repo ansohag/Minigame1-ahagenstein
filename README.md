@@ -12,7 +12,7 @@
  WebGL 1024x768
 
 #### Game Trailer:      
-     
+https://www.youtube.com/watch?v=rtuvhSwwdjU&feature=youtu.be     
 
 #### Description:
 2D Minigame                             
@@ -44,6 +44,9 @@ Entweder wird das Spiel durch das Ablaufen der 60 Sekunden beendet, oder wenn de
  welche den gesammelten Punktestand anzeigt.
  Danach kann man das Spiel restarten, wenn man möchte.
         
+#### Controls:     
+On X-Axis, with the left and right arrow key or with AD
+       
 #### Mockups:
 * Start Screen  	  
 <div>
@@ -65,7 +68,29 @@ Entweder wird das Spiel durch das Ablaufen der 60 Sekunden beendet, oder wenn de
 <div>
 <img src="./Screenshots/EndScreen.png" width="250">
 </div>
-        
+       
+#### Gameplay Screenshots
+     
+* Start Scene
+<div>
+<img src="./Screenshots/StartFinish.png" width="250">
+</div>
+    
+* Info Scene
+<div>
+<img src="./Screenshots/InfoFinish.png" width="250">
+</div>
+      
+* Main Scene
+<div>
+<img src="./Screenshots/MainFinish.png" width="250">
+</div>
+      
+* End Scene
+<div>
+<img src="./Screenshots/EndFinish.png" width="250">
+</div>
+         
 #### Lessons learned
 * Concepting a game
 * Basic programming in Unity
