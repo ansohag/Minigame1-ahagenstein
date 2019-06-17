@@ -80,5 +80,8 @@ Entweder wird das Spiel durch das Ablaufen der 60 Sekunden beendet, oder wenn de
 * Background Scene with Green Lawn by Freepik
 * Baby Logo by Freepik
 * Hand Holding Mosquito Spray by Freepik       
+* Royalty Free Music by Bensound "Buddy" (for the trailer)
+* Sweet honey drips by freepik
+      
 
 > Copyright by Anna Hagenstein
