@@ -73,7 +73,7 @@ On X-Axis, with the left and right arrow key or with AD
      
 * Start Scene
 <div>
-<img src="./Screenshots/StartFinish.png" width="250">
+<img src="./Screenshots/IntroFinish.png" width="250">
 </div>
     
 * Info Scene
